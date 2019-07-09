@@ -1,0 +1,8 @@
+com\ognjenn\bookstore\rest\BookEndpoint.class
+com\ognjenn\bookstore\util\TextUtil.class
+com\ognjenn\bookstore\model\Book.class
+com\ognjenn\bookstore\repository\BookRepository.class
+com\ognjenn\bookstore\model\Language.class
+com\ognjenn\bookstore\util\isbnGenerator.class
+com\ognjenn\bookstore\rest\JAXRSConfiguration.class
+com\ognjenn\bookstore\util\NumberGenerator.class

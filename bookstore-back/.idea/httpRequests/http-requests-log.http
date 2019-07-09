@@ -1,0 +1,360 @@
+GET http://localhost:8080/bookstore-back/api/books/count
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-20T031717.200.json
+
+###
+
+GET http://localhost:8080/bookstore-back/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-20T031659.200.json
+
+###
+
+GET http://localhost:8080/bookstore-back/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-20T031641.200.json
+
+###
+
+GET http://localhost:8080/bookstore-back/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T103257.200.json
+
+###
+
+GET http://localhost:8080/bookstore-back/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T103244.200.json
+
+###
+
+GET http://localhost:8080/bookstore-back/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T053614.200.json
+
+###
+
+GET http://localhost:8080/bookstore-back/api/books/count
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T053558.200.json
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T053551.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T053544.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T053155.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T052215.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T052200.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T052148.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T052003.404.html
+
+###
+
+COUNT http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T051956.405.html
+
+###
+
+COUNT http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T051947.405.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T051938.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T051931.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T051919.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T051917.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-18T051714.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore-back-1.0/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore-back-1.0/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore-back-1.0/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/api/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T070058.404.html
+
+###
+
+GET http://localhost:8080/api/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T065629.404.html
+
+###
+
+GET http://localhost:8080/api/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T065624.404.html
+
+###
+
+GET http://localhost:8080/api/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T065614.404.html
+
+###
+
+GET http://localhost:8080/api/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T065509.404.html
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore/api
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T065131.200.html
+
+###
+
+GET http://localhost:8080/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T065029.200.html
+
+###
+
+COUNT http://localhost:8080/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+COUNT http://localhost:8080/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/bookstore
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T064208.200.html
+
+###
+
+GET http://localhost:8080/bookstore-back-1.0/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-30T064145.404.html
+
+###
+

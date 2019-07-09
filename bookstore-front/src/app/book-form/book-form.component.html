@@ -1,0 +1,56 @@
+<h2>Create a new book</h2>
+
+<form (ngSubmit)="create()">
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Title</label>
+    <div class="col-10">
+      <input class= "form-control" type="text" [(ngModel)]="book.title"  name="title" >
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Description</label>
+    <div class="col-10">
+      <textarea class= "form-control" rows="3" type="text" [(ngModel)]="book.description" name="description" ></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Unit cost</label>
+    <div class="col-10">
+      <input class= "form-control" type="number" [(ngModel)]="book.unitCost" name="unitCost" >
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Number of pages</label>
+    <div class="col-10">
+      <input class= "form-control" type="text" [(ngModel)]="book.nbOfPages" name="nbOfPages" >
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Image URL</label>
+    <div class="col-10">
+      <input class="form-control" type="String" [(ngModel)]="book.imageUrl" name="imageUrl" >
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label class="col-2 col-form-label">Language</label>
+    <div class="col-10">
+      <select class= "form-control" type="Book.LanguageEnum"  [(ngModel)]="book.language" name="language">
+        <option value="">Select</option>
+        <option value="0">SERBIAN</option>
+        <option value="1">ENGLISH</option>
+        <option value="2">FRENCH</option>
+        <option value="3">SPANISH</option>
+        <option value="4">PORTUGUESE</option>
+        <option value="5">ITALIAN</option>
+        <option value="6">FINISH</option>
+        <option value="7">GERMAN</option>
+        <option value="8">DUTCH</option>
+        <option value="9">RUSSIAN</option>
+      </select>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Create</button>
+  <a class="btn btn-secondary" [routerLink]="['/book-list']" role="button">Cancel</a>
+</form>

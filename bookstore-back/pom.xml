@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ognjenn.bookstore</groupId>
+    <artifactId>bookstore-back</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <name>bookstore-back</name>
+
+    <properties>
+        <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.swagger>1.5.13</version.swagger>
+        <version.resteasy>3.1.1.Final</version.resteasy>
+        <version.swagger.plugin>3.1.4</version.swagger.plugin>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>${version.swagger}</version>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+
+        <finalName>bookstore-back</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <compilerArguments>
+                        <endorseddirs>${endorsed.dir}</endorseddirs>
+                    </compilerArguments>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${endorsed.dir}</outputDirectory>
+                            <silent>true</silent>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>javax</groupId>
+                                    <artifactId>javaee-endorsed-api</artifactId>
+                                    <version>7.0</version>
+                                    <type>jar</type>
+                                </artifactItem>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>2.9</version>
+            </plugin>
+            <plugin>
+                <groupId>com.github.kongchen</groupId>
+                <artifactId>swagger-maven-plugin</artifactId>
+                <version>${version.swagger.plugin}</version>
+                <configuration>
+                    <apiSources>
+                        <apiSource>
+                            <springmvc>false</springmvc>
+                            <locations>com.ognjenn.bookstore.rest</locations>
+                            <schemes>http</schemes>
+                            <host>localhost:8080</host>
+                            <basePath>/bookstore-back/api</basePath>
+                            <outputFormats>yaml,json</outputFormats>
+                            <info>
+                                <title>BookStore APIs</title>
+                                <version>1.0.0</version>
+                                <description>BookStore APIs</description>
+                                <contact>
+                                    <email>ognjen_ninkovic@yahoo.com</email>
+                                    <name>Ognjen Ninkovic</name>
+                                </contact>
+                            </info>
+                            <swaggerDirectory>${basedir}/src/main/webapp</swaggerDirectory>
+                            <attachSwaggerArtifact>true</attachSwaggerArtifact>
+                        </apiSource>
+                    </apiSources>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>io.swagger</groupId>
+                        <artifactId>swagger-hibernate-validations</artifactId>
+                        <version>1.5.12</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.0.0</version>
+            <configuration>
+                <descriptorRefs>
+                    <descriptorRef>src</descriptorRef>
+                </descriptorRefs>
+            </configuration>
+        </plugin>
+    </plugins>
+    </build>
+
+</project>
