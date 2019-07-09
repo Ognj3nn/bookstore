@@ -6,6 +6,6 @@
  
   ScreenShots:
  
- ![](\imgs\bookstore-main.png?raw=true "bookstore")
+ ![](imgs\bookstore-main.png?raw=true "bookstore")
 
   
