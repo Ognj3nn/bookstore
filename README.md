@@ -6,6 +6,6 @@
  
   ScreenShots:
  
- ![Alt text](D:\Ognjen\9. Git\BookStore-git\bookstore\bookstore-main.png?raw=true "bookstore main page")
+ ![](imgs\bookstore-main.png?raw=true "bookstore main page")
 
   
