@@ -6,6 +6,6 @@
  
   ScreenShots:
   
-  (D:\Ognjen\Slike\GitHub\bookstore\bookstore-create.png?raw=true "bookstore main page")
+  ![AltText](D:\Ognjen\Slike\GitHub\bookstore\bookstore-create.png?raw=true "bookstore main page")
 
   
