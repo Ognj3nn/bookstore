@@ -6,7 +6,7 @@
  
   ScreenShots:
  
-                                  bookstore - main page/ create book page/ book details/delete page
+                                  bookstore - main page/ create book page/ book details - delete page
  ![](imgs/bookstore-main.png)
  
  
