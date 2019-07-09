@@ -8,8 +8,12 @@
  
                                   bookstore - main page/ create book page/ book details/delete page
  ![](imgs/bookstore-main.png)
+ 
+ 
                                                 
  ![](imgs/bookstore-create.png)
+ 
+ 
                                                
  ![](imgs/bookstore-details.png)
   
