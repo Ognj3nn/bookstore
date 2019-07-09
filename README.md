@@ -6,10 +6,12 @@
  
   ScreenShots:
  
-                                                bookstore main page
+                                                bookstore - main page
  ![](imgs/bookstore-main.png)
- ![](imgs/bookstore-create.png "bookstore create page")
- ![](imgs/bookstore-details.png "bookstore details/delete page")
+                                                bookstore - create book page
+ ![](imgs/bookstore-create.png)
+                                                bookstore - book details/delete page
+ ![](imgs/bookstore-details.png)
   
 
   
