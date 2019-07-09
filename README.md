@@ -6,6 +6,9 @@
  
   ScreenShots:
  
- ![](imgs/bookstore-main.png)
+ ![](imgs/bookstore-main.png "bookstore main page")
+ ![](imgs/bookstore-create.png "bookstore create page")
+ ![](imgs/bookstore-details.png "bookstore details/delete page")
+  
 
   
